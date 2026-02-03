@@ -1,0 +1,26 @@
+# Source files (dist is published instead)
+src/
+tsconfig.json
+
+# Python files (no longer needed)
+*.py
+requirements.txt
+.venv/
+__pycache__/
+
+# Knowledge PDFs (large, users get pre-built data/)
+knowledge/
+
+# Development files
+.github/
+.gitignore
+.vscode/
+.idea/
+*.md
+!README.md
+
+# Tests
+test/
+tests/
+*.test.ts
+*.spec.ts

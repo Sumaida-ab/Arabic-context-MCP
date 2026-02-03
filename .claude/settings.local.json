@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venvScriptspython.exe -c \"import mcp; import pypdf; print\\(''Dependencies OK''\\)\")",
+      "Bash(cmd /c \".venv\\\\Scripts\\\\python.exe server.py --help\")"
+    ]
+  }
+}

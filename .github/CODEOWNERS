@@ -1,0 +1,16 @@
+# Code owners for Arabic Accents MCP
+# These users will be requested for review on PRs that touch these files
+
+# All code changes require maintainer approval
+*.ts @Sumaida-ab
+*.js @Sumaida-ab
+*.json @Sumaida-ab
+src/ @Sumaida-ab
+dist/ @Sumaida-ab
+
+# Core knowledge requires maintainer approval
+/knowledge/*.pdf @Sumaida-ab
+
+# Community contributions - anyone can contribute here
+# (no owner specified = no automatic review required)
+# /knowledge/contributions/

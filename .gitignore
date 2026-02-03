@@ -1,0 +1,38 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+.eggs/
+*.egg-info/
+*.egg
+build/
+
+# Node.js
+node_modules/
+dist/
+
+# Note: data/ is committed because npm users need the pre-built accent files
+# Run `npm run ingest` to regenerate from knowledge/ PDFs
+
+# Optional: ignore PDFs in knowledge/ if you don't want to commit them
+# knowledge/*.pdf
+
+# Environment and IDE
+.env
+.env.local
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MCP / Cursor (user-specific)
+.cursor/mcp.json
